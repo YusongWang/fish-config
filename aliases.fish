@@ -42,6 +42,7 @@ alias ec "emacsclient -c"
 # git
 alias g git
 alias ga "git add"
+alias gs "git status"
 alias gb "git branch"
 alias gba "git branch -a"
 alias gbd "git branch -D"
