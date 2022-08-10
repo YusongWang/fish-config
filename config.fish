@@ -38,5 +38,4 @@ set -x PATH "$HOME/.cargo/bin" $PATH
 source "$HOME/.config/fish/aliases.fish"
 source "$HOME/.config/fish/utils.fish"
 source "$HOME/.config/fish/peco.fish"
-#source "$HOME/.config/fish/pyenv.fish"
 
