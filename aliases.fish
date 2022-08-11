@@ -4,12 +4,13 @@ alias ... "cd ../.."
 
 alias la "ls -Gla"
 alias ld 'ls -l | grep "^d"'
-alias ll 'ls -ahlF'
+alias ll 'ls -l'
+
 if type -q exa
     alias l exa
     alias la 'exa --long --all --group --header --binary --links --inode --blocks'
     alias ld 'exa --long --all --group --header --list-dirs'
-    alias ll 'exa --long --all --group --header --git'
+    alias ll 'exa --long --all --group --header'
     alias lt='exa --long --all --group --header --tree --level'
 end
 
